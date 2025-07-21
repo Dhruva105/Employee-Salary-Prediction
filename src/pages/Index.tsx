@@ -1,28 +1,18 @@
 import React, { useState, useRef } from 'react';
 import HeroSection from '@/components/HeroSection';
-import SalaryPredictionForm from '@/components/SalaryPredictionForm';
-import PredictionResults from '@/components/PredictionResults';
+import MultiStepSalaryForm from '@/components/MultiStepSalaryForm';
+import EnhancedPredictionResults from '@/components/EnhancedPredictionResults';
 import MarketInsights from '@/components/MarketInsights';
 import TopPayingCompanies from '@/components/TopPayingCompanies';
 import AnalyticsMetrics from '@/components/AnalyticsMetrics';
 import MethodologySection from '@/components/MethodologySection';
 import Footer from '@/components/Footer';
 
-interface FormData {
-  age: string;
-  gender: string;
-  education: string;
-  experience: string;
-  jobRole: string;
-  company: string;
-  skills: string[];
-  specializations: string[];
-}
-
 const Index = () => {
   const [predictionResult, setPredictionResult] = useState<{
     salary: number;
-    formData: FormData;
+    formData: any;
+    insights?: any;
   } | null>(null);
   
   const predictionSectionRef = useRef<HTMLDivElement>(null);
@@ -34,8 +24,8 @@ const Index = () => {
     });
   };
 
-  const handlePrediction = (salary: number, formData: FormData) => {
-    setPredictionResult({ salary, formData });
+  const handlePrediction = (salary: number, formData: any, insights: any) => {
+    setPredictionResult({ salary, formData, insights });
     
     // Scroll to results after a brief delay
     setTimeout(() => {
@@ -55,16 +45,17 @@ const Index = () => {
       {/* Prediction Form Section */}
       <section ref={predictionSectionRef} className="py-16 px-4 bg-background">
         <div className="max-w-7xl mx-auto">
-          <SalaryPredictionForm onPrediction={handlePrediction} />
+          <MultiStepSalaryForm onPrediction={handlePrediction} />
         </div>
       </section>
 
       {/* Prediction Results Section */}
       <section id="prediction-results" className="py-16 px-4 bg-muted/30">
         <div className="max-w-7xl mx-auto">
-          <PredictionResults 
+          <EnhancedPredictionResults 
             salary={predictionResult?.salary || null} 
-            formData={predictionResult?.formData || null} 
+            formData={predictionResult?.formData || null}
+            insights={predictionResult?.insights}
           />
         </div>
       </section>
