@@ -34,9 +34,21 @@ const SalaryPredictionForm: React.FC<SalaryPredictionFormProps> = ({ onPredictio
     specializations: []
   });
 
-  const ageRanges = ['22-25', '25-30', '30-35', '35-40', '40-45', '45+'];
-  const genders = ['Male', 'Female', 'Other'];
-  const educationLevels = ['Diploma', "Bachelor's", "Master's", 'PhD'];
+  const ageRanges = ['18-22', '22-25', '25-30', '30-35', '35-40', '40-45', '45-50', '50+'];
+  const genders = ['Male', 'Female', 'Non-binary', 'Transgender', 'Prefer not to say', 'Other'];
+  const educationLevels = [
+    'High School (10th)',
+    'Higher Secondary (12th)',
+    'ITI/Polytechnic Diploma',
+    'Professional Diploma',
+    "Bachelor's Degree (B.Tech/B.E./BCA/B.Com/B.A.)",
+    "Bachelor's with Honors",
+    "Master's Degree (M.Tech/MCA/MBA/M.Com/M.A.)",
+    "Master's with Specialization",
+    'PhD/Doctorate',
+    'Post-Doctoral Research',
+    'Professional Certifications'
+  ];
   const experienceRanges = ['0-1 years', '1-3 years', '3-5 years', '5-10 years', '10+ years'];
   const jobRoles = [
     'Software Engineer',
