@@ -148,7 +148,7 @@ const CareerPathPredictor: React.FC = () => {
                     tickFormatter={formatCurrency}
                   />
                   <Tooltip 
-                    formatter={(value) => [formatCurrency(value), 'Salary']}
+                    formatter={(value) => [formatCurrency(Number(value)), 'Salary']}
                     labelFormatter={(label) => `Experience: ${label} years`}
                   />
                   <Area 

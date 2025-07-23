@@ -147,7 +147,7 @@ const MLModelDashboard: React.FC = () => {
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis type="number" domain={[0, 0.35]} />
                   <YAxis dataKey="feature" type="category" width={100} />
-                  <Tooltip formatter={(value) => [`${(value * 100).toFixed(1)}%`, 'Importance']} />
+                  <Tooltip formatter={(value) => [`${(Number(value) * 100).toFixed(1)}%`, 'Importance']} />
                   <Bar dataKey="importance" fill="hsl(var(--primary))" />
                 </BarChart>
               </ResponsiveContainer>
@@ -179,7 +179,7 @@ const MLModelDashboard: React.FC = () => {
                     tickFormatter={formatCurrency}
                   />
                   <Tooltip 
-                    formatter={(value, name) => [formatCurrency(value), name === 'predicted' ? 'Predicted' : 'Actual']}
+                    formatter={(value, name) => [formatCurrency(Number(value)), name === 'predicted' ? 'Predicted' : 'Actual']}
                   />
                   <Scatter name="Predictions" dataKey="predicted" fill="hsl(var(--accent))" />
                   <Line dataKey="actual" stroke="hsl(var(--primary))" strokeWidth={2} dot={false} />
@@ -206,7 +206,7 @@ const MLModelDashboard: React.FC = () => {
                   />
                   <YAxis tickFormatter={formatCurrency} />
                   <Tooltip 
-                    formatter={(value) => [formatCurrency(value), 'Residual']}
+                    formatter={(value) => [formatCurrency(Number(value)), 'Residual']}
                     labelFormatter={(label) => `Predicted: ${formatCurrency(label)}`}
                   />
                   <Bar dataKey="residual" fill="hsl(var(--success))" />
