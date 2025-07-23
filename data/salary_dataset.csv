@@ -1,0 +1,116 @@
+
+company_name,job_title,job_location,experience_years,education_level,remote_ratio,company_size,employment_type,work_year,salary
+TCS,Software Engineer,Bangalore,2,Bachelor,0,Large,Full-time,2023,450000
+Infosys,Senior Developer,Mumbai,4,Master,50,Large,Full-time,2023,780000
+Wipro,Tech Lead,Delhi,6,Bachelor,0,Large,Full-time,2023,1200000
+HCL,Principal Engineer,Hyderabad,8,Master,25,Large,Full-time,2023,1800000
+Accenture,Engineering Manager,Pune,10,Master,50,Large,Full-time,2023,2500000
+Flipkart,Full Stack Developer,Bangalore,3,Bachelor,100,Medium,Full-time,2023,650000
+Amazon,Senior SDE,Bangalore,5,Master,0,Large,Full-time,2023,1500000
+Microsoft,Principal SDE,Hyderabad,7,Master,50,Large,Full-time,2023,2200000
+Google,Staff Engineer,Mumbai,9,PhD,25,Large,Full-time,2023,3500000
+Meta,Senior Engineer,Bangalore,6,Master,75,Large,Full-time,2023,2800000
+Netflix,Senior Developer,Mumbai,4,Master,100,Medium,Full-time,2023,2000000
+Apple,iOS Developer,Bangalore,3,Bachelor,0,Large,Full-time,2023,1100000
+IBM,Data Scientist,Pune,5,Master,50,Large,Full-time,2023,1300000
+Oracle,Database Engineer,Hyderabad,4,Bachelor,0,Large,Full-time,2023,900000
+Salesforce,Cloud Engineer,Mumbai,6,Master,75,Large,Full-time,2023,1800000
+Adobe,UI/UX Developer,Bangalore,3,Bachelor,50,Medium,Full-time,2023,850000
+Uber,Backend Engineer,Delhi,5,Master,100,Large,Full-time,2023,1600000
+Ola,Mobile Developer,Bangalore,4,Bachelor,0,Medium,Full-time,2023,950000
+Paytm,FinTech Developer,Mumbai,3,Master,25,Medium,Full-time,2023,750000
+Zomato,Full Stack Developer,Delhi,2,Bachelor,50,Medium,Full-time,2023,600000
+Swiggy,DevOps Engineer,Bangalore,4,Master,0,Medium,Full-time,2023,1000000
+BYJU'S,EdTech Developer,Bangalore,3,Bachelor,75,Medium,Full-time,2023,700000
+Freshworks,SaaS Developer,Chennai,5,Master,100,Medium,Full-time,2023,1200000
+Zoho,CRM Developer,Chennai,4,Bachelor,0,Medium,Full-time,2023,800000
+Mindtree,Consultant,Bangalore,6,Master,25,Large,Full-time,2023,1400000
+Tech Mahindra,Systems Engineer,Pune,2,Bachelor,0,Large,Full-time,2023,400000
+Cognizant,Associate,Mumbai,1,Bachelor,50,Large,Full-time,2023,350000
+Capgemini,Analyst,Delhi,3,Master,25,Large,Full-time,2023,600000
+L&T Infotech,Developer,Hyderabad,4,Bachelor,0,Large,Full-time,2023,750000
+Mphasis,Senior Analyst,Bangalore,5,Master,50,Large,Full-time,2023,1100000
+Startup1,Frontend Developer,Bangalore,2,Bachelor,100,Small,Full-time,2023,500000
+Startup2,Backend Developer,Mumbai,3,Master,75,Small,Full-time,2023,700000
+Startup3,Full Stack Developer,Delhi,4,Bachelor,50,Small,Full-time,2023,800000
+Startup4,Mobile Developer,Hyderabad,3,Master,100,Small,Full-time,2023,650000
+Startup5,DevOps Engineer,Pune,5,Master,25,Small,Full-time,2023,950000
+Razorpay,Payment Engineer,Bangalore,4,Master,0,Medium,Full-time,2023,1300000
+Postman,API Developer,Bangalore,3,Bachelor,100,Medium,Full-time,2023,1000000
+Druva,Cloud Engineer,Pune,5,Master,50,Medium,Full-time,2023,1400000
+InMobi,Ad Tech Developer,Bangalore,4,Bachelor,25,Medium,Full-time,2023,1100000
+Hike,Mobile Developer,Delhi,3,Master,75,Medium,Full-time,2023,900000
+ShareChat,Social Media Developer,Bangalore,2,Bachelor,50,Medium,Full-time,2023,700000
+Dream11,Gaming Developer,Mumbai,4,Master,0,Medium,Full-time,2023,1200000
+PhonePe,FinTech Engineer,Bangalore,5,Master,25,Medium,Full-time,2023,1500000
+Cred,Credit Engineer,Bangalore,3,Bachelor,100,Medium,Full-time,2023,1100000
+Nykaa,E-commerce Developer,Mumbai,4,Master,50,Medium,Full-time,2023,1000000
+BigBasket,Grocery Tech Developer,Bangalore,3,Bachelor,25,Medium,Full-time,2023,800000
+Grofers,Supply Chain Developer,Delhi,4,Master,0,Medium,Full-time,2023,900000
+UrbanClap,Service Platform Developer,Mumbai,2,Bachelor,75,Medium,Full-time,2023,650000
+Lenskart,E-commerce Developer,Bangalore,3,Master,50,Medium,Full-time,2023,750000
+PolicyBazaar,InsurTech Developer,Delhi,4,Bachelor,25,Medium,Full-time,2023,850000
+TCS,Junior Developer,Chennai,1,Bachelor,0,Large,Full-time,2023,320000
+Infosys,System Engineer,Bangalore,1,Bachelor,50,Large,Full-time,2023,380000
+Wipro,Associate Engineer,Mumbai,1,Bachelor,0,Large,Full-time,2023,350000
+HCL,Trainee Engineer,Hyderabad,0,Bachelor,25,Large,Full-time,2023,280000
+Accenture,Junior Analyst,Pune,1,Bachelor,50,Large,Full-time,2023,400000
+Tech Mahindra,Associate Developer,Delhi,2,Bachelor,0,Large,Full-time,2023,450000
+Cognizant,Programmer Analyst,Bangalore,2,Master,25,Large,Full-time,2023,500000
+Capgemini,Software Engineer,Mumbai,3,Bachelor,50,Large,Full-time,2023,550000
+L&T Infotech,Senior Developer,Hyderabad,4,Master,0,Large,Full-time,2023,800000
+Mphasis,Tech Lead,Bangalore,6,Master,25,Large,Full-time,2023,1300000
+Amazon,SDE II,Bangalore,4,Master,0,Large,Full-time,2023,1400000
+Microsoft,SDE II,Hyderabad,5,Master,50,Large,Full-time,2023,1800000
+Google,Senior SWE,Mumbai,6,Master,25,Large,Full-time,2023,2500000
+Meta,Senior SWE,Bangalore,5,Master,75,Large,Full-time,2023,2200000
+Netflix,Senior Engineer,Mumbai,6,Master,100,Medium,Full-time,2023,2800000
+Apple,Senior iOS Developer,Bangalore,5,Master,0,Large,Full-time,2023,1900000
+IBM,Senior Data Scientist,Pune,7,PhD,50,Large,Full-time,2023,2000000
+Oracle,Senior Database Engineer,Hyderabad,6,Master,0,Large,Full-time,2023,1600000
+Salesforce,Senior Cloud Engineer,Mumbai,7,Master,75,Large,Full-time,2023,2200000
+Adobe,Senior UX Developer,Bangalore,5,Master,50,Medium,Full-time,2023,1700000
+Uber,Senior Backend Engineer,Delhi,6,Master,100,Large,Full-time,2023,2100000
+Ola,Senior Mobile Developer,Bangalore,5,Master,0,Medium,Full-time,2023,1500000
+Paytm,Senior FinTech Developer,Mumbai,5,Master,25,Medium,Full-time,2023,1400000
+Zomato,Senior Full Stack Developer,Delhi,4,Master,50,Medium,Full-time,2023,1200000
+Swiggy,Senior DevOps Engineer,Bangalore,6,Master,0,Medium,Full-time,2023,1600000
+BYJU'S,Senior EdTech Developer,Bangalore,5,Master,75,Medium,Full-time,2023,1300000
+Freshworks,Senior SaaS Developer,Chennai,7,Master,100,Medium,Full-time,2023,1800000
+Zoho,Senior CRM Developer,Chennai,6,Master,0,Medium,Full-time,2023,1400000
+Mindtree,Senior Consultant,Bangalore,8,Master,25,Large,Full-time,2023,1900000
+Razorpay,Senior Payment Engineer,Bangalore,6,Master,0,Medium,Full-time,2023,1700000
+Postman,Senior API Developer,Bangalore,5,Master,100,Medium,Full-time,2023,1500000
+Druva,Senior Cloud Engineer,Pune,7,Master,50,Medium,Full-time,2023,1800000
+InMobi,Senior Ad Tech Developer,Bangalore,6,Master,25,Medium,Full-time,2023,1600000
+Hike,Senior Mobile Developer,Delhi,5,Master,75,Medium,Full-time,2023,1400000
+ShareChat,Senior Social Media Developer,Bangalore,4,Master,50,Medium,Full-time,2023,1200000
+Dream11,Senior Gaming Developer,Mumbai,6,Master,0,Medium,Full-time,2023,1800000
+PhonePe,Senior FinTech Engineer,Bangalore,7,Master,25,Medium,Full-time,2023,2000000
+Cred,Senior Credit Engineer,Bangalore,5,Master,100,Medium,Full-time,2023,1600000
+Nykaa,Senior E-commerce Developer,Mumbai,6,Master,50,Medium,Full-time,2023,1500000
+BigBasket,Senior Grocery Tech Developer,Bangalore,5,Master,25,Medium,Full-time,2023,1300000
+Grofers,Senior Supply Chain Developer,Delhi,6,Master,0,Medium,Full-time,2023,1400000
+UrbanClap,Senior Service Platform Developer,Mumbai,4,Master,75,Medium,Full-time,2023,1100000
+Lenskart,Senior E-commerce Developer,Bangalore,5,Master,50,Medium,Full-time,2023,1200000
+PolicyBazaar,Senior InsurTech Developer,Delhi,6,Master,25,Medium,Full-time,2023,1400000
+TCS,Team Lead,Chennai,8,Master,0,Large,Full-time,2023,1600000
+Infosys,Tech Lead,Bangalore,7,Master,50,Large,Full-time,2023,1800000
+Wipro,Engineering Manager,Mumbai,9,Master,0,Large,Full-time,2023,2200000
+HCL,Principal Engineer,Hyderabad,10,Master,25,Large,Full-time,2023,2500000
+Accenture,Senior Manager,Pune,12,Master,50,Large,Full-time,2023,3000000
+Tech Mahindra,Delivery Manager,Delhi,10,Master,0,Large,Full-time,2023,2200000
+Cognizant,Associate Director,Bangalore,11,Master,25,Large,Full-time,2023,2800000
+Capgemini,Technical Manager,Mumbai,9,Master,50,Large,Full-time,2023,2400000
+L&T Infotech,Principal Consultant,Hyderabad,12,Master,0,Large,Full-time,2023,2700000
+Mphasis,Technical Director,Bangalore,14,Master,25,Large,Full-time,2023,3200000
+Amazon,Principal Engineer,Bangalore,9,Master,0,Large,Full-time,2023,3500000
+Microsoft,Principal SDE,Hyderabad,10,Master,50,Large,Full-time,2023,4000000
+Google,Staff Engineer,Mumbai,11,PhD,25,Large,Full-time,2023,4500000
+Meta,Staff Engineer,Bangalore,10,Master,75,Large,Full-time,2023,4200000
+Netflix,Staff Engineer,Mumbai,12,Master,100,Medium,Full-time,2023,5000000
+Apple,Principal Engineer,Bangalore,11,Master,0,Large,Full-time,2023,4200000
+IBM,Distinguished Engineer,Pune,13,PhD,50,Large,Full-time,2023,4500000
+Oracle,Principal Engineer,Hyderabad,12,Master,0,Large,Full-time,2023,3800000
+Salesforce,Principal Architect,Mumbai,13,Master,75,Large,Full-time,2023,4600000
+Adobe,Principal Developer,Bangalore,11,Master,50,Medium,Full-time,2023,3900000
