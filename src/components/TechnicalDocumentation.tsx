@@ -433,7 +433,7 @@ async def predict_salary(request: PredictionRequest):
           </Card>
           <Card className="text-center bg-gradient-to-br from-success/10 to-primary/10 border-0">
             <CardContent className="pt-6">
-              <div className="text-3xl font-bold text-success mb-2">< 200ms</div>
+              <div className="text-3xl font-bold text-success mb-2">&lt; 200ms</div>
               <div className="text-sm text-muted-foreground">API Response Time</div>
             </CardContent>
           </Card>
