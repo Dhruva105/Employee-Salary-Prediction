@@ -1,7 +1,12 @@
+
 import React, { useState, useRef } from 'react';
 import HeroSection from '@/components/HeroSection';
 import SalaryPredictionForm from '@/components/SalaryPredictionForm';
 import PredictionResults from '@/components/PredictionResults';
+import MLModelDashboard from '@/components/MLModelDashboard';
+import SkillsROICalculator from '@/components/SkillsROICalculator';
+import CareerPathPredictor from '@/components/CareerPathPredictor';
+import TechnicalDocumentation from '@/components/TechnicalDocumentation';
 import MarketInsights from '@/components/MarketInsights';
 import TopPayingCompanies from '@/components/TopPayingCompanies';
 import AnalyticsMetrics from '@/components/AnalyticsMetrics';
@@ -68,6 +73,18 @@ const Index = () => {
           />
         </div>
       </section>
+
+      {/* ML Model Dashboard - New IBM-focused section */}
+      <MLModelDashboard />
+
+      {/* Skills ROI Calculator - Unique ML feature */}
+      <SkillsROICalculator />
+
+      {/* Career Path Predictor - Advanced ML feature */}
+      <CareerPathPredictor />
+
+      {/* Technical Documentation - Professional ML documentation */}
+      <TechnicalDocumentation />
 
       {/* Market Insights */}
       <MarketInsights />
