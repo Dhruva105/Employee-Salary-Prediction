@@ -17,11 +17,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* SalaryScope Premium Brand Colors - Deep Navy → Electric Blue → Teal */
-    --primary: 230 100% 21%; /* Deep Navy #001a66 */
-    --primary-glow: 217 91% 60%; /* Electric Blue #3b82f6 */
-    --primary-teal: 184 81% 29%; /* Teal #0f766e */
+    /* SalaryScope Brand Colors */
+    --primary: 217 91% 60%; /* Blue #3b82f6 */
     --primary-foreground: 0 0% 100%;
+    --primary-dark: 226 71% 40%; /* Darker blue #1e40af */
     
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -39,13 +38,11 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 217 91% 60%;
 
-    /* Premium Gradient System */
-    --gradient-primary: linear-gradient(135deg, hsl(230 100% 21%), hsl(217 91% 60%), hsl(184 81% 29%));
-    --gradient-hero: linear-gradient(135deg, hsl(230 100% 21%) 0%, hsl(217 91% 60%) 50%, hsl(184 81% 29%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 40% 98%));
+    /* Custom Design System */
+    --gradient-primary: linear-gradient(135deg, hsl(226 71% 40%), hsl(217 91% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(226 71% 40%) 0%, hsl(217 91% 60%) 100%);
     --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    --shadow-glow: 0 0 40px hsl(217 91% 60% / 0.2);
     
     /* Success and Analytics Colors */
     --success: 142 76% 36%; /* Green for analytics */
