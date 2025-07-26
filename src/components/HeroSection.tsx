@@ -31,19 +31,19 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onGetStarted }) => {
             {/* Main Headlines */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Professional
-                <span className="block text-accent">Salary Insights</span>
+                Employee Salary
+                <span className="block text-accent">Prediction Dashboard</span>
               </h1>
               <h2 className="text-2xl lg:text-3xl font-semibold opacity-90">
-                Predicting the Pay of Tomorrow
+                ML-Powered Salary Predictions
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-lg lg:text-xl opacity-80 leading-relaxed max-w-2xl">
-              Get accurate salary predictions for the Indian job market using advanced analytics 
-              and market research. Compare compensation trends across industries, locations, and 
-              experience levels tailored for Professionals.
+              Predict salaries using machine learning trained on 45,000+ data points. 
+              Built as an internship project showcasing full-stack development with 
+              Python ML models and React frontend.
             </p>
 
             {/* CTA Buttons */}

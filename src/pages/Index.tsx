@@ -3,14 +3,9 @@ import React, { useState, useRef } from 'react';
 import HeroSection from '@/components/HeroSection';
 import SalaryPredictionForm from '@/components/SalaryPredictionForm';
 import PredictionResults from '@/components/PredictionResults';
-import MLModelDashboard from '@/components/MLModelDashboard';
-import SkillsROICalculator from '@/components/SkillsROICalculator';
-import CareerPathPredictor from '@/components/CareerPathPredictor';
-import TechnicalDocumentation from '@/components/TechnicalDocumentation';
-import MarketInsights from '@/components/MarketInsights';
-import TopPayingCompanies from '@/components/TopPayingCompanies';
-import AnalyticsMetrics from '@/components/AnalyticsMetrics';
-import MethodologySection from '@/components/MethodologySection';
+import SimplifiedModelInfo from '@/components/SimplifiedModelInfo';
+import ComparisonChart from '@/components/ComparisonChart';
+import SimplifiedTechStack from '@/components/SimplifiedTechStack';
 import Footer from '@/components/Footer';
 
 interface FormData {
@@ -74,29 +69,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ML Model Dashboard - New IBM-focused section */}
-      <MLModelDashboard />
+      {/* Simplified Model Information */}
+      <SimplifiedModelInfo />
 
-      {/* Skills ROI Calculator - Unique ML feature */}
-      <SkillsROICalculator />
+      {/* Salary Comparison Chart */}
+      <ComparisonChart />
 
-      {/* Career Path Predictor - Advanced ML feature */}
-      <CareerPathPredictor />
-
-      {/* Technical Documentation - Professional ML documentation */}
-      <TechnicalDocumentation />
-
-      {/* Market Insights */}
-      <MarketInsights />
-
-      {/* Top Paying Companies */}
-      <TopPayingCompanies />
-
-      {/* Analytics Metrics */}
-      <AnalyticsMetrics />
-
-      {/* Methodology */}
-      <MethodologySection />
+      {/* Tech Stack & GitHub */}
+      <SimplifiedTechStack />
 
       {/* Footer */}
       <Footer />
